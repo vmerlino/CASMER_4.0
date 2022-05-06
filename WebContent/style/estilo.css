@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Oswald';
+	text-decoration: none !important;
+}
+
+.contenedor{
+	width: 90%;
+	margin: 0 auto;
+	margin-right: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	font-size: 20px;
+	font-weight: 700;
+}
+.logo{
+	display: flex;
+	text-decoration: none;
+	font-style: 'Recursive';
+	color:#000000;
+	align-items: center;
+}
+header{
+	background-color: #B12F2F;
+	padding: 20px;
+}
+nav{
+	display: flex;
+}
+
+li{
+	list-style: none;
+}
+header nav a{
+	color:#FFFFFF;
+	text-decoration: none !important;
+	margin-right: 20px;
+	transition: 0.6s;
+}
+header nav a:hover{
+	color: #9c8e8e;
+}
+
+.contenido-central{
+	text-decoration: none !important;
+}
+.central{
+	background:url(comid.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+}
+.central2{
+	background:url(comid.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500vh;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+
+}
+
+.contenido-central h1{
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 60px;
+	font-family: 'Recursive';
+	font-weight: 500;
+}
+
+.contenido-central p{
+	color:#FFFFFF;
+	text-align: center;
+	font-family: 'Recursive';
+	font-size: 20px;
+}
+.icn{
+	position:fixed;
+	font-size: 90px;
+	width:125px;
+	height: 125px;
+	margin-left:100%;
+	margin-top:100px;
+	margin-right: 15px;
+}
+input{
+	width: 100%;
+	display:flex;
+	margin:auto;
+	flex-wrap: wrap;
+	margin-top:20px;
+}
+
+label{
+	display: inline-block;
+	padding:6px 40px;
+	margin-top: 20px;
+	margin-left:20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: antiquewhite;
+	border-radius: 5px;
+	cursor:pointer;
+	flex-wrap: wrap;
+}
+label:hover{
+	background-color: brown;
+	transition: 0.8s;
+}
+input[type="radio"]{
+	display:none;
+}
+.tarjetas{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card{
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 370px;
+	height: 370px;
+	border-radius: 5px;
+	position:relative;
+	border: 2px solid #BBB0B0;
+	box-shadow: 2px 2px 5px 5px #BBB0B0 ;
+	transition: ease-in-out 0.3s;
+}
+
+.card-header{
+	padding-left: 110px;
+	padding-top: 15px;
+}
+.card-img{
+	width:150px;
+	height: 150px;
+	object-fit: cover; 
+}
+.card-body{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Recursive';
+}
+
+.card-body p{
+	padding-top: 10px;
+	padding-bottom: 10px ;
+	font-family: 'Recusive';
+}
+
+.card-body h4{
+	padding-top: 5px;
+	font-family: 'Recusive';
+	font-size: 28px;
+}
+
+.btn btn-primary{
+	
+	background-color: #B12F2F;
+}
+.btn-1{
+	display: block;
+	color:#FFFFFF;
+	text-align: center;
+	font-family: 'Recursive';
+	font-size: 20px;
+	background-color: #B12F2F;
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+	padding-top:20px;
+	margin: 0 auto;
+	margin-top:15px;
+	text-decoration: none;
+	transition: ease-in-out 0.3s;
+}
+
+.btn-1:hover{
+	box-shadow: 0.5px 0.5px 5px 2px #FFFFFF;
+	cursor: pointer;
+}
+
+.btn-2{
+	display:inline-block;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #21ACE2;
+	text-decoration: none;
+	font-family: 'Recursive';
+	color: white;
+	border: 2px solid #BBB0B0;
+}
+
+.btn-3{
+	display:inline-block;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: rgb(192, 192, 192);;
+	text-decoration: none;
+	font-family: 'Recursive';
+	color: white;
+	border: 2px solid #BBB0B0;
+}
+.btn-2:hover{
+	background-color: rgb(20, 184, 34);
+	transition: 0.7s;
+}
+
+.card:hover{
+	box-shadow: 0 4px 4px;
+	cursor: pointer ;
+}
+
+.fot{
+	height: 200px;
+	background-color: #304769;
+}
+
+.fot-cont{
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	flex-wrap: wrap;
+	text-align:center;
+	align-items: center;
+	font-family: 'Recusive';
+	font-size: 18px;
+	color:#FFFFFF;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.fot-cont a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.list {
+	margin-top: 50px ;
+}
+
+.lg{
+	margin-top:5px;
+	margin-left:15px;
+}
+
+.body1{
+	background:url(fondosuper.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 500%;
+	justify-content: center; 
+	align-items: center; 
+	
+}

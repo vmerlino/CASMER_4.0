@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2F2B2B;
+}
+
+.formu {
+	width: 400px;
+	background: #FF5A36;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000000;
+}
+
+.formu h3 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.d-grid{
+	text-decoration:none;
+}
+.formu p {
+	font-size: 22px;
+	margin-bottom: 20px;
+	text-align: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+.controles {
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #181514;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.chk {
+	width: 10%;
+	border: none;
+	padding: 50px;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+.formu a {
+	color: white;
+	text-decoration: none;
+}
+
+.formu a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.botones {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}

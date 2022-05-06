@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.fot{
+	height: 200px;
+	background-color: #304769;
+}
+
+.fot-cont{
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	flex-wrap: wrap;
+	text-align:center;
+	align-items: center;
+	font-family: 'Recusive';
+	font-size: 18px;
+	color:#FFFFFF;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.fot-cont a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.list {
+	margin-top: 50px ;
+}
+
+.lg{
+	margin-top:5px;
+	margin-left:15px;
+}
